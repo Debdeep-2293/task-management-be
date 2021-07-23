@@ -52,7 +52,7 @@ You can find detailed instructions on how to install Docker for your operating s
 
 pgAdmin is going to help us manage and observe our Postgres database. This tool is cross-platform. You can find detailed download instructions in the official pgAdmin download page(https://www.pgadmin.org/download/).
 
-To run PostgreSQL on Docker, run the following in your Terminal:
+## To run PostgreSQL on Docker, run the following in your Terminal:
 ```bash
 docker run --name postgres-nest -p 5433:5432 -e POSTGRES_PASSWORD=postgres -d postgres
 ```
