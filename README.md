@@ -28,7 +28,7 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+## Installation of node modules
 
 ```bash
 $ yarn
@@ -42,13 +42,13 @@ $ yarn
 $ yarn start:dev
 ```
 
-##Docker
+## Docker
 
 We are going to use Docker to run Postgres. It is easy, straight-forward and it works cross-platform. You will need to install Docker on your machine.
 You can find detailed instructions on how to install Docker for your operating system in the official Docker download page(https://www.docker.com/products/docker-desktop).
 
 
-##pgAdmin
+## pgAdmin
 
 pgAdmin is going to help us manage and observe our Postgres database. This tool is cross-platform. You can find detailed download instructions in the official pgAdmin download page(https://www.pgadmin.org/download/).
 
