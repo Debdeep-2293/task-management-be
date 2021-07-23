@@ -34,34 +34,27 @@
 $ yarn
 ```
 
-```bash
-$ yarn start:dev
-```
+
 
 ## Running the app
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+$ yarn start:dev
 ```
 
-## Test
+##Docker
 
+We are going to use Docker to run Postgres. It is easy, straight-forward and it works cross-platform. You will need to install Docker on your machine.
+You can find detailed instructions on how to install Docker for your operating system in the official Docker download page(https://www.docker.com/products/docker-desktop).
+
+
+##pgAdmin
+
+pgAdmin is going to help us manage and observe our Postgres database. This tool is cross-platform. You can find detailed download instructions in the official pgAdmin download page(https://www.pgadmin.org/download/).
+
+To run PostgreSQL on Docker, run the following in your Terminal:
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+docker run --name postgres-nest -p 5433:5432 -e POSTGRES_PASSWORD=postgres -d postgres
 ```
 
 ## Support
